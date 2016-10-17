@@ -1,0 +1,5 @@
+localhost:2020 {
+    root www
+    gzip
+    log logs/access.log
+}
