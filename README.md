@@ -15,6 +15,7 @@ start.cmd
 - server files from `www` directory
 - log to `logs/access.log` 
 - protect `/secrets` with basic auth
+- proxy all requests from `/hypem` to `http://hypem.com` 
 
 ## Resources
 

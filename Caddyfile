@@ -1,6 +1,9 @@
 localhost:2020 {
     root www
     gzip
+    proxy /hypem hypem.com:80 {
+        without /hypem
+    }
     basicauth /secrets harold cupcake12
-    log / logs/access.log "{when} Request: {status} {method} {path}"
+    log / logs/access.log "{when} Request: {status} {method} {uri}"
 }
