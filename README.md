@@ -14,6 +14,7 @@ start.cmd
 - run caddy on `localhost:2020`
 - server files from `www` directory
 - log to `logs/access.log` 
+- protect `/secrets` with basic auth
 
 ## Resources
 
