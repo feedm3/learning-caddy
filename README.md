@@ -9,6 +9,11 @@ To run the project on windows 64-bit simply hit
 start.cmd
 ```
 
+For mac use
+```
+start
+```
+
 ## Features / Setup
 
 - run caddy on `localhost:2020`
