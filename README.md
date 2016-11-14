@@ -24,7 +24,7 @@ localhost:8080 {
 4. Start Caddy with `caddy`. If your config file is not in the same 
 directory as you are you can use it via the `conf` option like `-conf="DIR_TO_CONF/Caddyfile"`
 
-To start the example configuration within this repo hit
+To start the example servers within this repo (configuration and caddy itself) hit
 
 ```
 # Mac
@@ -149,3 +149,5 @@ localhost:2016 {
 - [Run Caddy as service with systemd](https://denbeke.be/blog/servers/running-caddy-server-as-a-service-with-systemd/)
 - [Install caddy via command line with https://getcaddy.com/](https://getcaddy.com/)
 - [Caddy FAQ](https://caddyserver.com/docs/faq)
+
+Made with ❤ at [https://sinnerschrader.com](SinnerSchrader)
