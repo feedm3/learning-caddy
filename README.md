@@ -150,4 +150,4 @@ localhost:2016 {
 - [Install caddy via command line with https://getcaddy.com/](https://getcaddy.com/)
 - [Caddy FAQ](https://caddyserver.com/docs/faq)
 
-Made with ❤ at [https://sinnerschrader.com](SinnerSchrader)
+Made with :heart: at [SinnerSchrader](https://sinnerschrader.com)
