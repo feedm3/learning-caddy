@@ -1,9 +1,28 @@
-localhost:2020 {
+localhost:2016 {
+    proxy / localhost:8080 localhost:8081 {
+        policy random
+    }
+    log / logs/access2016.log
+}
+
+localhost:8080 {
     root www
-    gzip
+    errors {
+        404 404.html
+    }
+    markdown
+    ext .md .html
+    basicauth user password {
+        /secret
+    }
+    log / logs/access8080.log
     proxy /hypem hypem.com:80 {
         without /hypem
     }
-    basicauth /secrets harold cupcake12
-    log / logs/access.log "{when} Request: {status} {method} {uri}"
+    gzip
+}
+
+localhost:8081 {
+    root www
+    log / logs/access8081.log
 }
