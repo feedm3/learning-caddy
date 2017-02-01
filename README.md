@@ -15,11 +15,11 @@ The official documentation can be found here: [https://caddyserver.com/docs](htt
 
 1. Download Caddy: https://caddyserver.com/download
 2. Create a config which is namend `Caddyfile` and add the following minimal config
-    ```
-    localhost:8080 {
-        root www
-    }
-    ```
+   ```
+   localhost:8080 {
+     root www
+   }
+   ```
 3. Put your web assets into the `www` folder
 4. Start Caddy with `caddy`. If your config file is not in the same 
 directory as you are you can use it via the `conf` option like `-conf="DIR_TO_CONF/Caddyfile"`
